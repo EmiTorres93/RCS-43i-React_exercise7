@@ -10,9 +10,9 @@ const EmpleadoRow = ({ propslistaEmpleado }) => {
             <Card.Img variant="top" style={{ width: "12rem" }} src={image} />
             <div className="p-4">
               <Card.Body className="d-flex flex-column">
-                <Card.Title>{propslistaEmpleado.fullname}</Card.Title>
-                <Card.Text> </Card.Text>
-                <Card.Text>business</Card.Text>
+                <Card.Title>{empleado.fullName}</Card.Title>
+                <Card.Text>{empleado.title}</Card.Text>
+                <Card.Text>{empleado.department}</Card.Text>
               </Card.Body>
             </div>
           </div>
