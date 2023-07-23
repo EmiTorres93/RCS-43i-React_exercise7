@@ -6,8 +6,8 @@ import EmpleadoList from "./components/EmpleadoList";
 function App() {
   return (
     <>
-      <Container>
-        <h1 className="text-center my-3">Lista Empleados</h1>
+      <Container className="container-fluid d-flex flex-column align-items-center">
+        <h1 className="text-center my-5">Lista Empleados</h1>
         <EmpleadoList></EmpleadoList>
       </Container>
     </>
